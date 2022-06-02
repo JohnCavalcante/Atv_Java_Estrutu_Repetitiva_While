@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ex1_Estrutura_Repetitiva_While {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int senha;
+		senha = entrada.nextInt();
+		
+		while(senha != 2002){ 
+			senha = entrada.nextInt();
+			System.out.println("Senha Invalida");
+		}
+			
+			System.out.println("Acesso Permitido");
+		
+		entrada.close();
+	}
+}
